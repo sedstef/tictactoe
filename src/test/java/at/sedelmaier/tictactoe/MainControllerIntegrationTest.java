@@ -21,7 +21,7 @@ public class MainControllerIntegrationTest {
     private MockMvc mvc;
 
     @Test
-    public void givenEmployees_whenGetEmployees_thenReturnJsonArray() throws Exception {
+    public void testGetIndexPage() throws Exception {
 
         mvc.perform(get("/"))
                 .andExpect(status().isOk())

@@ -1,4 +1,4 @@
-package at.sedelmaier.tictactoe;
+package at.sedelmaier.tictactoe.ui;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

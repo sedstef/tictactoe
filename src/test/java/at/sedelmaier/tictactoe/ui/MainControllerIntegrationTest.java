@@ -1,5 +1,6 @@
-package at.sedelmaier.tictactoe;
+package at.sedelmaier.tictactoe.ui;
 
+import at.sedelmaier.tictactoe.ui.MainController;
 import static org.hamcrest.CoreMatchers.is;
 import org.junit.Test;
 import org.junit.runner.RunWith;

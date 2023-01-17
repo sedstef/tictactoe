@@ -15,7 +15,7 @@ node('jdk11') {
         
         stage('Build'){
             try{
-                mvn '-U clean package'
+                mvn '-U clean install'
             }finally{
                 junit '**/target/*-reports/TEST-*.xml'
                 jacoco execPattern: '**/target/jacoco*.exec'    
